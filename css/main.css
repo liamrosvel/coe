@@ -8,3 +8,6 @@
 *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit; }
+
+img {
+  max-width: 100%; }
