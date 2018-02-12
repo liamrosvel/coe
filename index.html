@@ -10,110 +10,118 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
-    <header>
-      <div>
-        <nav>
-          <ul>
-            <li><a href="#">¿Quienes Somos?</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Capacitaciones</a></li>
+    <header class="header">
+      <div class="header__container">
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a class="main-nav__link" href="#">¿Quienes Somos?</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Contacto</a></li>
+            <li class="main-nav__item"><a class="main-nav__link main-nav__link-style" href="#">Capacitaciones</a></li>
           </ul>
         </nav>
-        <div>
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <div class="header__icons-container">
+          <svg class="header__icon-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M3 6h18v2.016h-18v-2.016zM3 12.984v-1.969h18v1.969h-18zM3 18v-2.016h18v2.016h-18z"></path>
-          </svg><a href="./"><img src="./images/coe-logo.svg" alt="logo-coe"></a>
+          </svg><a href="./"><img class="header__logo" src="./images/coe-logo.svg" alt="logo-coe"></a>
         </div>
       </div>
     </header>
     <main>
-      <section>
-        <div>
-          <div>
-            <h1>Consultoría <span>Organizacional</span> para Empresas</h1><a href="#"> 
-              <p>Explora Nuestras Capacitaciones<span>
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <section class="landing">
+        <div class="landing__container">
+          <div class="landing__block-copy">
+            <h1 class="landing__title">Consultoría <span class="landing__title-style">Organizacional</span> para Empresas</h1><a class="landing__link" href="#"> 
+              <p class="landing__link-title">Explora Nuestras Capacitaciones<span>
+                  <svg class="landing__link-arrow" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M16.707 13.293c-0.391-0.391-1.023-0.391-1.414 0l-2.293 2.293v-7.586c0-0.552-0.447-1-1-1s-1 0.448-1 1v7.586l-2.293-2.293c-0.391-0.391-1.023-0.391-1.414 0s-0.391 1.023 0 1.414l4.707 4.707 4.707-4.707c0.391-0.391 0.391-1.023 0-1.414z"></path>
                   </svg></span></p></a>
           </div>
-          <div><img src="./images/landing-building.svg" alt="Consultoría Organizacional"></div>
+          <div class="landing__block-img"><img src="./images/landing-building.svg" alt="Consultoría Organizacional"></div>
         </div>
       </section>
-      <section>
-        <div>
-          <header>
-            <h2>Capacita e impulsa tu empresa</h2>
-            <p>A través de capacitaciones ayudamos a mejorar la productividad, la retención de talentos y las necesidades de formación.</p>
+      <section class="features">
+        <div class="features__container">
+          <header class="features__header">
+            <h2 class="title">Capacita e impulsa tu empresa</h2>
+            <p class="title__copy">A través de capacitaciones ayudamos a mejorar la productividad, la retención de talentos y las necesidades de formación.</p>
           </header>
-          <div>
-            <article><img src="./images/icon-feature-1.svg" alt="Habilidades Directivas">
-              <h3>Habilidades Directivas</h3>
-              <p>Brinda capacidades y conocimientos para realizar las actividades de liderazgo y coordinación en el rol de gerente o líder de un grupo de tu empresa.</p><a href="#">Conoce más</a>
+          <div class="features__items-container">
+            <article class="features__item"><img class="features__item-img" src="./images/icon-feature-1.svg" alt="Habilidades Directivas">
+              <h3 class="features__item-title">Habilidades Directivas</h3>
+              <p class="features__item-copy">Brinda capacidades y conocimientos para realizar las actividades de liderazgo y coordinación en el rol de gerente o líder de un grupo de tu empresa.</p><a class="features__item-link" href="#">Conoce más</a>
             </article>
-            <article><img src="./images/icon-feature-2.svg" alt="Planeación Estratégica">
-              <h3>Planeación Estratégica</h3>
-              <p>Elabora y desarrolla planes operativos para tu empresa con la intención de alcanzar objetivos y metas a corto, mediano o largo plazo.</p><a href="#">Conoce más</a>
+            <article class="features__item"><img class="features__item-img" src="./images/icon-feature-2.svg" alt="Planeación Estratégica">
+              <h3 class="features__item-title">Planeación Estratégica</h3>
+              <p class="features__item-copy">Elabora y desarrolla planes operativos para tu empresa con la intención de alcanzar objetivos y metas a corto, mediano o largo plazo.</p><a class="features__item-link" href="#">Conoce más</a>
             </article>
-            <article><img src="./images/icon-feature-3.svg" alt="Servicio al Cliente">
-              <h3>Servicio al Cliente</h3>
-              <p>Cuando un cliente encuentra el producto que buscaba, y además recibe un buen servicio al cliente, queda satisfecho y hace que regrese y vuelva a comprarnos.</p><a href="#">Conoce más</a>
+            <article class="features__item"><img class="features__item-img" src="./images/icon-feature-3.svg" alt="Servicio al Cliente">
+              <h3 class="features__item-title">Servicio al Cliente</h3>
+              <p class="features__item-copy">Cuando un cliente encuentra el producto que buscaba, y además recibe un buen servicio al cliente, queda satisfecho y hace que regrese y vuelva a comprarnos.</p><a class="features__item-link" href="#">Conoce más</a>
             </article>
-            <article><img src="./images/icon-feature-4.svg" alt="Trabajo en Equipo">
+            <article class="features__item"><img class="features__item-img" src="./images/icon-feature-4.svg" alt="Trabajo en Equipo">
               <h3>Trabajo en Equipo</h3>
-              <p>Cuando se trabaja en equipo y se potencian sus esfuerzos, disminuye el tiempo invertido en las labores y aumenta la eficacia de los resultados.</p><a href="#">Conoce más</a>
+              <p class="features__item-copy">Cuando se trabaja en equipo y se potencian sus esfuerzos, disminuye el tiempo invertido en las labores y aumenta la eficacia de los resultados.</p><a class="features__item-link" href="#">Conoce más</a>
             </article>
           </div>
-          <div><a href="#">Conoce nuestras capacitaciones<span>
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <div class="features__button-container"><a class="button" href="#">Conoce nuestras capacitaciones<span>
+                <svg class="button__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path d="M8.578 16.359l4.594-4.594-4.594-4.594 1.406-1.406 6 6-6 6z"></path>
                 </svg></span></a></div>
         </div>
       </section>
-      <section>
-        <div>
-          <header>
-            <h2>¿Por qué trabajar con COE?</h2>
-            <p>El secreto de nuestro éxito reside en combinar una formación dinámica y sólida, adaptada a las necesidades de la empresa actual, así como el tiempo que invertimos en crear una formación a medida y única para nuestros clientes.</p>
+      <section class="work">
+        <div class="work__container">
+          <header class="work__header">
+            <h2 class="title">¿Por qué trabajar con COE?</h2>
+            <p class="title__copy">El secreto de nuestro éxito reside en combinar una formación dinámica y sólida, adaptada a las necesidades de la empresa actual, así como el tiempo que invertimos en crear una formación a medida y única para nuestros clientes.</p>
           </header>
-          <div><img src="./images/about-landing-1.jpg" alt="COE"><img src="./images/about-landing-2.jpg" alt="COE"><img src="./images/about-landing-3.jpg" alt="COE"><img src="./images/about-landing-4.jpg" alt="COE"></div>
-          <div>
-            <div><img src="./images/icon-work-1.svg" alt="Calidad">
-              <p>Calidad</p>
+          <div class="work__images-container"><img class="work__image" src="./images/about-landing-1.jpg" alt="COE"><img class="work__image" src="./images/about-landing-2.jpg" alt="COE"><img class="work__image" src="./images/about-landing-3.jpg" alt="COE"><img class="work__image" src="./images/about-landing-4.jpg" alt="COE"></div>
+          <div class="work__icons-container">
+            <div class="work__icon-container"><img class="work__icon" src="./images/icon-work-1.svg" alt="Calidad">
+              <p class="work__icon-title">Calidad</p>
             </div>
-            <div><img src="./images/icon-work-2.svg" alt="Oportunidad">
-              <p>Oportunidad</p>
+            <div class="work__icon-container"><img class="work__icon" src="./images/icon-work-2.svg" alt="Oportunidad">
+              <p class="work__icon-title">Oportunidad</p>
             </div>
-            <div><img src="./images/icon-work-3.svg" alt="Innovación">
-              <p>Innovación</p>
+            <div class="work__icon-container"><img class="work__icon" src="./images/icon-work-3.svg" alt="Innovación">
+              <p class="work__icon-title">Innovación</p>
             </div>
-            <div><img src="./images/icon-work-4.svg" alt="Confidencialidad">
-              <p>Confidencialidad</p>
+            <div class="work__icon-container"><img class="work__icon" src="./images/icon-work-4.svg" alt="Confidencialidad">
+              <p class="work__icon-title">Confidencialidad</p>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div>
-          <header>
-            <h2>¿Quiénes son COE?</h2>
+      <section class="about-us">
+        <div class="about-us__container">
+          <header class="about-us__header">
+            <h2 class="title">¿Quiénes son COE?</h2>
           </header>
-          <div>
-            <article>
-              <p>COE asiste a empresas, respetando la cultura organizacional de cada compañía, políticas, estrategias y metodologías de trabajo.</p>
-              <p>Ayudamos a mejorar la productividad a través de formación, así como la búsqueda y retención</p>
+          <div class="about-us__items-container">
+            <article class="about-us__item">
+              <p class="about-us__item-copy">COE asiste a empresas, respetando la cultura organizacional de cada compañía, políticas, estrategias y metodologías de trabajo.</p>
+              <p class="about-us__item-copy">Ayudamos a mejorar la productividad a través de formación, así como la búsqueda y retención</p>
             </article>
-            <article>
-              <p>de su talento, satisfacemos las necesidades de formación y consultoría Organizacional de nuestros clientes, a través de una metodología propia.</p><a href="#">Conoce más</a>
+            <article class="about-us__item">
+              <p class="about-us__item-copy">de su talento, satisfacemos las necesidades de formación y consultoría Organizacional de nuestros clientes, a través de una metodología propia.</p><a class="about-us__item-link" href="#">Conoce más</a>
             </article>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div>
-        <div><img src="./images/coe-logo.svg" alt="coe-logo"></div>
-        <div>
-          <p>Todos los derechos reservados para <a href="http://agenciapromkt.com.mx/" target="_blank">Agencia promkt</a> 2018</p>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__item-container"><img class="footer__item-img" src="./images/coe-logo.svg" alt="coe-logo"></div>
+        <div class="footer__item-container">
+          <p class="footer__item-copyrigth">Todos los derechos reservados para <a class="footer__item-copyrigth-link" href="http://agenciapromkt.com.mx/" target="_blank">Agencia promkt</a> 2018</p>
+        </div>
+        <div class="footer__item-container">
+          <h4 class="footer__item-title">Contáctanos</h4>
+          <ul class="footer__item-list">
+            <li class="footer__item-item"><a class="footer__item-link-mail" href="mailto:liviaguillen@hotmail.com" alt="email">liviaguillen@hotmail.com</a></li>
+            <li class="footer__item-item">(044) 644 107 6586</li>
+            <li class="footer__item-item">C.d Obregón, Sonora</li>
+          </ul>
         </div>
       </div>
     </footer>
