@@ -19,89 +19,227 @@
                         <li class="main-nav__item"><a class="main-nav__link main-nav__link-style" href="#">Capacitaciones</a></li>
                     </ul>
                 </nav>
-                <div class="header__icons-container">
+                <div class="header__icons-container"><a href="./"><img class="header__logo" src="./images/coe-logo.svg" alt="logo-coe"></a>
                     <svg class="header__icon-menu" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path d="M3 6h18v2.016h-18v-2.016zM3 12.984v-1.969h18v1.969h-18zM3 18v-2.016h18v2.016h-18z"></path>
-                    </svg><a href="./"><img class="header__logo" src="./images/coe-logo.svg" alt="logo-coe"></a>
+                    </svg>
                 </div>
             </div>
         </header>
         <main>
-            <header class="header-courses">
-                <h1 class="title">Nuestras Capacitaciones</h1>
-            </header>
             <section class="courses">
                 <div class="courses__container">
-                    <header class="courses__header">
-                        <h2 class="courses__header-title">Administración, Planeación y Estrategias</h2>
+                    <header class="header-courses">
+                        <h1 class="title header-courses__title">Nuestras Capacitaciones</h1>
                     </header>
-                    <div class="courses__items-container">
-                        <article class="courses__item">
-                            <div class="courses__item-bgcolor">|color-bg</div>
-                            <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-1.svg" alt="Habilidades Directivas"></div>
-                            <div class="courses__item-copy-container">
-                                <h3 class="courses__item-title">Habilidades Directivas</h3>
-                                <p class="courses__item-subtitle">Dirige con Inteligencia</p>
-                            </div>
-                            <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
-                        </article>
-                        <article class="courses__item">
-                            <div class="courses__item-bgcolor">|color-bg</div>
-                            <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-2.svg" alt="Planeación Estratégica"></div>
-                            <div class="courses__item-copy-container">
-                                <h3 class="courses__item-title">Planeación Estratégica</h3>
-                                <p class="courses__item-subtitle">Conoce tu mercado</p>
-                            </div>
-                            <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
-                        </article>
-                        <article class="courses__item">
-                            <div class="courses__item-bgcolor">|color-bg</div>
-                            <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-3.svg" alt="Taller para la elaboración de programas de trabajo"></div>
-                            <div class="courses__item-copy-container">
-                                <h3 class="courses__item-title">Taller para la elaboración de programas de trabajo</h3>
-                                <p class="courses__item-subtitle">Efectividad en tu trabajo</p>
-                            </div>
-                            <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
-                        </article>
-                        <article class="courses__item">
-                            <div class="courses__item-bgcolor">|color-bg</div>
-                            <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-4.svg" alt="Liderazgo organizacional"></div>
-                            <div class="courses__item-copy-container">
-                                <h3 class="courses__item-title">Liderazgo organizacional</h3>
-                                <p class="courses__item-subtitle">Aprende a ser líder</p>
-                            </div>
-                            <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
-                        </article>
-                        <article class="courses__item">
-                            <div class="courses__item-bgcolor">|color-bg</div>
-                            <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-5.svg" alt="Modelo de Gestión de Calidad"></div>
-                            <div class="courses__item-copy-container">
-                                <h3 class="courses__item-title">Modelo de Gestión de Calidad</h3>
-                                <p class="courses__item-subtitle">Estándares de calidad</p>
-                            </div>
-                            <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
-                        </article>
-                        <article class="courses__item">
-                            <div class="courses__item-bgcolor">|color-bg</div>
-                            <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-6.svg" alt="Sistema de calidad basado en las 5 s´s"></div>
-                            <div class="courses__item-copy-container">
-                                <h3 class="courses__item-title">Sistema de calidad basado en las 5 s´s</h3>
-                                <p class="courses__item-subtitle">Mantenimiento Integral</p>
-                            </div>
-                            <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
-                        </article>
-                    </div>
-                    <div class="courses__button-container"><a class="blue-button courses__button" href="#">Pregunta por más cursos<span>
+                    <!--Inicio del primer bloque de cursos-->
+                    <div class="courses__courses-container">
+                        <header class="courses__header">
+                            <h2 class="courses__header-title">Administración, Planeación y Estrategias</h2>
+                        </header>
+                        <div class="courses__items-container">
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--yellow"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-1.svg" alt="Habilidades Directivas"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Habilidades Directivas</h3>
+                                    <p class="courses__item-subtitle">Dirige con Inteligencia</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--pink"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-2.svg" alt="Planeación Estratégica"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Planeación Estratégica</h3>
+                                    <p class="courses__item-subtitle">Conoce tu mercado</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--blue"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-3.svg" alt="Taller para la elaboración de programas de trabajo"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Taller para la elaboración de programas de trabajo</h3>
+                                    <p class="courses__item-subtitle">Efectividad en tu trabajo</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--grey"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-4.svg" alt="Liderazgo organizacional"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Liderazgo organizacional</h3>
+                                    <p class="courses__item-subtitle">Aprende a ser líder</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--yellow"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-5.svg" alt="Modelo de Gestión de Calidad"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Modelo de Gestión de Calidad</h3>
+                                    <p class="courses__item-subtitle">Estándares de calidad</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--pink"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-6.svg" alt="Sistema de calidad basado en las 5 s´s"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Sistema de calidad basado en las 5 s´s</h3>
+                                    <p class="courses__item-subtitle">Mantenimiento Integral</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                        </div>
+                        <div class="courses__button-container"><a class="blue-button courses__button" href="#">Pregunta por más cursos
                                 <svg class="courses__button-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M8.578 16.359l4.594-4.594-4.594-4.594 1.406-1.406 6 6-6 6z"></path>
-                                </svg></span></a></div>
+                                </svg></a></div>
+                    </div>
+                    <!--Fin del primer bloque de cursos-->
+                    <!--Inicio del segundo bloque de cursos-->
+                    <div class="courses__courses-container">
+                        <header class="courses__header">
+                            <h2 class="courses__header-title">Autoestima y motivación</h2>
+                        </header>
+                        <div class="courses__items-container">
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--yellow"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-7.svg" alt="Liderazgo personal"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Liderazgo personal</h3>
+                                    <p class="courses__item-subtitle">Liderarse a uno mismo</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--pink"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-8.svg" alt="7 Hábitos para la gente altamente efectiva"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">7 Hábitos para la gente altamente efectiva</h3>
+                                    <p class="courses__item-subtitle">Pequeños grandes cambios</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--blue"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-9.svg" alt="Comunicación Asertiva"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Comunicación Asertiva</h3>
+                                    <p class="courses__item-subtitle">Aprender a comunicarte</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--grey"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-10.svg" alt="Relaciones Humanas en el trabajo"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Relaciones Humanas en el trabajo</h3>
+                                    <p class="courses__item-subtitle">Convivencia en el trabajo</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--yellow"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-11.svg" alt="Motivación en el trabajo"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Motivación en el trabajo</h3>
+                                    <p class="courses__item-subtitle">Ten un objetivo</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--pink"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-12.svg" alt="Autoestima"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Autoestima</h3>
+                                    <p class="courses__item-subtitle">La clave</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                        </div>
+                        <div class="courses__button-container"><a class="blue-button courses__button" href="#">Pregunta por más cursos
+                                <svg class="courses__button-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M8.578 16.359l4.594-4.594-4.594-4.594 1.406-1.406 6 6-6 6z"></path>
+                                </svg></a></div>
+                    </div>
+                    <!--Fin del segundo bloque de cursos-->
+                    <!--Inicio del tercer bloque de cursos-->
+                    <div class="courses__courses-container">
+                        <header class="courses__header">
+                            <h2 class="courses__header-title">Clientes y Equipo de Trabajo</h2>
+                        </header>
+                        <div class="courses__items-container">
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--yellow"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-13.svg" alt="Servicio al Cliente"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Servicio al Cliente</h3>
+                                    <p class="courses__item-subtitle">Brinda un servicio de calidad</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--pink"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-14.svg" alt="7Calidad en el servicio"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Calidad en el servicio</h3>
+                                    <p class="courses__item-subtitle">Procesos que ayudan</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--blue"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-10.svg" alt="Trabajo en Equipo"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Trabajo en Equipo</h3>
+                                    <p class="courses__item-subtitle">Colaboración</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--grey"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-15.svg" alt="Reclutamiento y Selección de Personal"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Reclutamiento y Selección de Personal</h3>
+                                    <p class="courses__item-subtitle">Crea y fortelece tu equipo</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--yellow"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-16.svg" alt="Modificación de Actitudes y Motivación de los Colaboradores"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Modificación de Actitudes y Motivación de los Colaboradores</h3>
+                                    <p class="courses__item-subtitle">Impulsa a tus colaboradores</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                            <article class="courses__item">
+                                <div class="courses__item-bgcolor courses__item-bgcolor--pink"></div>
+                                <div class="courses__item-icon-container"><img class="courses__item-icon" src="./images/icon-course-17.svg" alt="Manejo de stress en situaciones de riesgo"></div>
+                                <div class="courses__item-copy-container">
+                                    <h3 class="courses__item-title">Manejo de stress en situaciones de riesgo</h3>
+                                    <p class="courses__item-subtitle">Manejo de problemáticas</p>
+                                </div>
+                                <div class="courses__item-button-container"><a class="ghost-button courses__item-button" href="#">Contáctanos</a></div>
+                            </article>
+                        </div>
+                        <div class="courses__button-container"><a class="blue-button courses__button" href="#">Pregunta por más cursos
+                                <svg class="courses__button-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M8.578 16.359l4.594-4.594-4.594-4.594 1.406-1.406 6 6-6 6z"></path>
+                                </svg></a></div>
+                    </div>
+                    <!--Fin del segundo bloque de cursos-->
                 </div>
             </section>
             <section class="courses__banner">
                 <div class="courses__banner-container">
-                    <p class="courses__banner-copy">Cualquier otro curso de interés y que no este en la lista se diseña de acuerdo a las necesidades de la Institución.</p>
-                    <p class="courses__banner-copy courses__banner-copy-style">ATTE</p>
-                    <p class="courses__banner-copy courses__banner-copy-style">LIC. LIVIA CELINA GUILLEN QUINTERO</p>
+                    <p class="courses__banner-copy courses__banner-copy--margin">Cualquier otro curso de interés y que no este en la lista se diseña de acuerdo a las necesidades de la Institución.</p>
+                    <p class="courses__banner-copy courses__banner-copy--style">ATTE</p>
+                    <p class="courses__banner-copy courses__banner-copy--style">LIC. LIVIA CELINA GUILLEN QUINTERO</p>
                 </div>
             </section>
         </main>
