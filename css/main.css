@@ -311,6 +311,28 @@ h2 {
   .mision__header-subtitle {
     font-size: 1.3rem;
     line-height: 1.5; }
+  .mision__img-container {
+    margin: 0;
+    padding: 0; }
+  .mision__img {
+    border-radius: 50%; }
+
+.button-courses {
+  padding: 5rem 0; }
+  .button-courses__container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+  .button-courses__title {
+    font-size: 1.7rem;
+    line-height: 1.5; }
+  .button-courses__arrow {
+    position: relative;
+    top: .35rem;
+    right: .3rem;
+    width: 1.5rem;
+    fill: #C8CCE7; }
 
 .header {
   position: fixed;
